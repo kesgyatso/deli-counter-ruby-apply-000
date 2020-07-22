@@ -31,7 +31,7 @@ def now_serving(katz_deli)
   
   else
     name = katz_deli.shift 
-    #had to modify the code from katz_deli.shift because it wasn't returning the value
+    #had to add name= the code because katz_deli.shift wasn't returning the value
     puts "Currently serving #{name}."
   end
 
