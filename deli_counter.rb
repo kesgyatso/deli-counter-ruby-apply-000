@@ -30,7 +30,8 @@ def now_serving(katz_deli)
   # end 
   
   else
-    name = katz_deli.shift
+    name = katz_deli.shift 
+    #had to modify the code from katz_deli.shift because it wasn't returning the value
     puts "Currently serving #{name}."
   end
 
